@@ -10,7 +10,6 @@
 		A52656FA2A474627003AAD02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52656F92A474627003AAD02 /* AppDelegate.swift */; };
 		A52656FC2A474627003AAD02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52656FB2A474627003AAD02 /* SceneDelegate.swift */; };
 		A52656FE2A474627003AAD02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52656FD2A474627003AAD02 /* ViewController.swift */; };
-		A52657012A474627003AAD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52656FF2A474627003AAD02 /* Main.storyboard */; };
 		A52657032A474628003AAD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52657022A474628003AAD02 /* Assets.xcassets */; };
 		A52657062A474628003AAD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52657042A474628003AAD02 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		A52656F92A474627003AAD02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A52656FB2A474627003AAD02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A52656FD2A474627003AAD02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A52657002A474627003AAD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A52657022A474628003AAD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52657052A474628003AAD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52657072A474628003AAD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				A52656F92A474627003AAD02 /* AppDelegate.swift */,
 				A52656FB2A474627003AAD02 /* SceneDelegate.swift */,
 				A52656FD2A474627003AAD02 /* ViewController.swift */,
-				A52656FF2A474627003AAD02 /* Main.storyboard */,
 				A52657022A474628003AAD02 /* Assets.xcassets */,
 				A52657042A474628003AAD02 /* LaunchScreen.storyboard */,
 				A52657072A474628003AAD02 /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				A52657062A474628003AAD02 /* LaunchScreen.storyboard in Resources */,
 				A52657032A474628003AAD02 /* Assets.xcassets in Resources */,
-				A52657012A474627003AAD02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A52656FF2A474627003AAD02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A52657002A474627003AAD02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A52657042A474628003AAD02 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,16 +278,18 @@
 				DEVELOPMENT_TEAM = MZ4WUT4W35;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Modakyi2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "모닥이2";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alswl.Modakyi2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -318,16 +308,18 @@
 				DEVELOPMENT_TEAM = MZ4WUT4W35;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Modakyi2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "모닥이2";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alswl.Modakyi2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
