@@ -13,6 +13,8 @@
 		A52657032A474628003AAD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52657022A474628003AAD02 /* Assets.xcassets */; };
 		A52657062A474628003AAD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52657042A474628003AAD02 /* LaunchScreen.storyboard */; };
 		A526570F2A474A5F003AAD02 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A526570E2A474A5F003AAD02 /* SnapKit */; };
+		A52657152A4750E3003AAD02 /* bonfire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52657142A4750E3003AAD02 /* bonfire.mp3 */; };
+		A52657172A475134003AAD02 /* YlangYlang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52657162A475134003AAD02 /* YlangYlang.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		A52657022A474628003AAD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52657052A474628003AAD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52657072A474628003AAD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52657142A4750E3003AAD02 /* bonfire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonfire.mp3; sourceTree = "<group>"; };
+		A52657162A475134003AAD02 /* YlangYlang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YlangYlang.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +63,29 @@
 				A52656F92A474627003AAD02 /* AppDelegate.swift */,
 				A52656FB2A474627003AAD02 /* SceneDelegate.swift */,
 				A52656FD2A474627003AAD02 /* ViewController.swift */,
-				A52657022A474628003AAD02 /* Assets.xcassets */,
+				A52657102A47503C003AAD02 /* Assets */,
 				A52657042A474628003AAD02 /* LaunchScreen.storyboard */,
 				A52657072A474628003AAD02 /* Info.plist */,
 			);
 			path = Modakyi2;
+			sourceTree = "<group>";
+		};
+		A52657102A47503C003AAD02 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A52657022A474628003AAD02 /* Assets.xcassets */,
+				A52657182A47538F003AAD02 /* Sounds */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A52657182A47538F003AAD02 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A52657142A4750E3003AAD02 /* bonfire.mp3 */,
+				A52657162A475134003AAD02 /* YlangYlang.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52657172A475134003AAD02 /* YlangYlang.mp3 in Resources */,
 				A52657062A474628003AAD02 /* LaunchScreen.storyboard in Resources */,
+				A52657152A4750E3003AAD02 /* bonfire.mp3 in Resources */,
 				A52657032A474628003AAD02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
