@@ -14,7 +14,8 @@
 		A52657062A474628003AAD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52657042A474628003AAD02 /* LaunchScreen.storyboard */; };
 		A526570F2A474A5F003AAD02 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A526570E2A474A5F003AAD02 /* SnapKit */; };
 		A52657152A4750E3003AAD02 /* bonfire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52657142A4750E3003AAD02 /* bonfire.mp3 */; };
-		A52657172A475134003AAD02 /* YlangYlang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A52657162A475134003AAD02 /* YlangYlang.mp3 */; };
+		A593B8AA2A49CF1F0060DADA /* ylangylang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A593B8A92A49CF1F0060DADA /* ylangylang.mp3 */; };
+		A593B8AC2A49D0830060DADA /* SoundStateStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A593B8AB2A49D0830060DADA /* SoundStateStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +27,8 @@
 		A52657052A474628003AAD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52657072A474628003AAD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52657142A4750E3003AAD02 /* bonfire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonfire.mp3; sourceTree = "<group>"; };
-		A52657162A475134003AAD02 /* YlangYlang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YlangYlang.mp3; sourceTree = "<group>"; };
+		A593B8A92A49CF1F0060DADA /* ylangylang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ylangylang.mp3; path = ../../../../../../Downloads/ylangylang.mp3; sourceTree = "<group>"; };
+		A593B8AB2A49D0830060DADA /* SoundStateStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundStateStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				A52657102A47503C003AAD02 /* Assets */,
 				A52657042A474628003AAD02 /* LaunchScreen.storyboard */,
 				A52657072A474628003AAD02 /* Info.plist */,
+				A593B8AD2A49D6FB0060DADA /* Storages */,
 			);
 			path = Modakyi2;
 			sourceTree = "<group>";
@@ -83,9 +86,17 @@
 			isa = PBXGroup;
 			children = (
 				A52657142A4750E3003AAD02 /* bonfire.mp3 */,
-				A52657162A475134003AAD02 /* YlangYlang.mp3 */,
+				A593B8A92A49CF1F0060DADA /* ylangylang.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A593B8AD2A49D6FB0060DADA /* Storages */ = {
+			isa = PBXGroup;
+			children = (
+				A593B8AB2A49D0830060DADA /* SoundStateStorage.swift */,
+			);
+			path = Storages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52657172A475134003AAD02 /* YlangYlang.mp3 in Resources */,
 				A52657062A474628003AAD02 /* LaunchScreen.storyboard in Resources */,
 				A52657152A4750E3003AAD02 /* bonfire.mp3 in Resources */,
+				A593B8AA2A49CF1F0060DADA /* ylangylang.mp3 in Resources */,
 				A52657032A474628003AAD02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52656FE2A474627003AAD02 /* ViewController.swift in Sources */,
+				A593B8AC2A49D0830060DADA /* SoundStateStorage.swift in Sources */,
 				A52656FA2A474627003AAD02 /* AppDelegate.swift in Sources */,
 				A52656FC2A474627003AAD02 /* SceneDelegate.swift in Sources */,
 			);
@@ -313,7 +325,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "모닥이2";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -343,7 +354,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "모닥이2";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
